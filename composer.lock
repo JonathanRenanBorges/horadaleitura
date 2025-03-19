@@ -1,0 +1,124 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "00ce6ab053f82bd9f431963f6511d491",
+    "packages": [
+        {
+            "name": "calcinai/php-imagick",
+            "version": "v0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/calcinai/php-imagick.git",
+                "reference": "001530b19560b9862ffe78c3ae29ad5dc2549e6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/calcinai/php-imagick/zipball/001530b19560b9862ffe78c3ae29ad5dc2549e6d",
+                "reference": "001530b19560b9862ffe78c3ae29ad5dc2549e6d",
+                "shasum": ""
+            },
+            "suggest": {
+                "ext-imagick": "Native extension"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Imagick": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Calcinai",
+                    "email": "michael@calcin.ai"
+                }
+            ],
+            "description": "PHP wrapper for command line ImageMagick utils compatible with PECL::Imagick",
+            "support": {
+                "issues": "https://github.com/calcinai/php-imagick/issues",
+                "source": "https://github.com/calcinai/php-imagick/tree/master"
+            },
+            "time": "2016-12-22T15:09:47+00:00"
+        },
+        {
+            "name": "ministryofweb/image-fix-exif-orientation",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ministryofweb/image-fix-exif-orientation.git",
+                "reference": "aabffc1abc9b4df0ae7391b5037110729a96a8f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ministryofweb/image-fix-exif-orientation/zipball/aabffc1abc9b4df0ae7391b5037110729a96a8f5",
+                "reference": "aabffc1abc9b4df0ae7391b5037110729a96a8f5",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "phpunit/phpunit": "^9.0",
+                "squizlabs/php_codesniffer": "^3.5",
+                "vimeo/psalm": "^4.0"
+            },
+            "suggest": {
+                "ext-gd": "*",
+                "ext-imagick": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MinistryOfWeb\\ImageFixExifOrientation\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus Jaschen",
+                    "email": "mjaschen@gmail.com",
+                    "homepage": "https://www.marcusjaschen.de/"
+                }
+            ],
+            "description": "Automatically rotates an image based on its orientation stored in Exif data. Supports GD and ImageMagick/IMagick.",
+            "keywords": [
+                "ImageMagick",
+                "camera",
+                "exif",
+                "fix",
+                "gd",
+                "image",
+                "imagick",
+                "photo",
+                "rotate",
+                "rotation"
+            ],
+            "support": {
+                "issues": "https://github.com/ministryofweb/image-fix-exif-orientation/issues",
+                "source": "https://github.com/ministryofweb/image-fix-exif-orientation/tree/1.0.0"
+            },
+            "time": "2021-03-08T10:25:19+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

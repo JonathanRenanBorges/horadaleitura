@@ -1,0 +1,16 @@
+{
+    "name": "aluno.etec/horadaleitura",
+    "autoload": {
+        "psr-4": {
+            "app\\": "",
+            "app\\DAO\\": "",
+            "app\\Model\\": "",
+            "app\\Utility\\": "",
+            "Vendor\\Namespace\\" : ""
+        },
+        "files": ["app/Utility/Constants.php"],
+        "classmap": [""]
+    },
+    "require": {
+    }
+}

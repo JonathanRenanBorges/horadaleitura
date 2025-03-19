@@ -1,0 +1,50 @@
+-- MySQL Workbench Synchronization
+-- Generated: 2024-09-05 11:50
+-- Model: New Model
+-- Version: 1.0
+-- Project: Name of the project
+-- Author: Jonathan Renan Borges
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+
+ALTER SCHEMA `sql10714828`  DEFAULT CHARACTER SET utf8  DEFAULT COLLATE utf8_general_ci ;
+
+ALTER TABLE `sql10714828`.`acesso` 
+CHARACTER SET = utf8 , COLLATE = utf8mb3_bin ;
+
+ALTER TABLE `sql10714828`.`aluga` 
+CHARACTER SET = utf8 , COLLATE = utf8mb3_bin ;
+
+ALTER TABLE `sql10714828`.`autor` 
+CHARACTER SET = utf8 , COLLATE = utf8mb3_bin ;
+
+ALTER TABLE `sql10714828`.`classificacaoindicativa` 
+CHARACTER SET = utf8 , COLLATE = utf8mb3_bin ;
+
+ALTER TABLE `sql10714828`.`editora` 
+CHARACTER SET = utf8 , COLLATE = utf8mb3_bin ;
+
+ALTER TABLE `sql10714828`.`estoque` 
+CHARACTER SET = utf8 , COLLATE = utf8mb3_bin ;
+
+ALTER TABLE `sql10714828`.`generoliterario` 
+CHARACTER SET = utf8 , COLLATE = utf8mb3_bin ;
+
+ALTER TABLE `sql10714828`.`generolivro` 
+CHARACTER SET = utf8 , COLLATE = utf8mb3_bin ;
+
+ALTER TABLE `sql10714828`.`imagem` 
+CHARACTER SET = utf8 , COLLATE = utf8mb3_bin ;
+
+ALTER TABLE `sql10714828`.`livro` 
+CHARACTER SET = utf8 , COLLATE = utf8mb3_bin ;
+
+ALTER TABLE `sql10714828`.`usuario` 
+CHARACTER SET = utf8 , COLLATE = utf8mb3_bin ;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
