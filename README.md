@@ -84,8 +84,8 @@ Este projeto é **open-source**, mas exige **crédito ao autor** para qualquer u
 
 ## 📩 Contato  
 
-📧 Colaborador 1 - Email: jonathanrenanborges@gmail.com
+📧 Colaborador Front-end - Email: jonathanrenanborges@gmail.com
 
-📧 Colaborador 2 - Email: joaogabrielvasques16@gmail.com
+📧 Colaborador Back-end - Email: joaogabrielvasques16@gmail.com
 
 Se gostou do projeto, deixe uma ⭐ no repositório! 🚀✨  
