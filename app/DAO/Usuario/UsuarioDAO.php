@@ -9,7 +9,7 @@ class UsuarioDAO
      public function insertUser(Usuario $user)
      {
           try {
-               $query = "INSERT INTO usuario(nome,email,senha,telefone,fkAcesso, fkFotoPerfil) VALUES (:nome,:email,:senha,:telefone,:fkAcesso, :fkFotoPerfil)";
+               $query = "INSERT INTO usuario(nome,email,senha,telefone,fkAcesso, fkImagemPerfil) VALUES (:nome,:email,:senha,:telefone,:fkAcesso, :fkFotoPerfil)";
                $sql = ConnectDB::getConexao()->prepare($query);
                $sql->bindValue(":nome", $user->getNome());
                $sql->bindValue(":email", $user->getEmail());
