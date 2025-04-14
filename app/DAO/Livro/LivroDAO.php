@@ -13,7 +13,7 @@ class LivroDAO
      public function insertLivro(Livro $livro)
      {
           try {
-               $query = "INSERT INTO livro(fkAutor,fkImagem,fkClassificacao,fkEditora,fkEstoque,titulo,descricao,paginas,edicao,lancamento, isbn) VALUES (:fkAutor,:fkImagem,:fkClassificacao,:fkEditora,:fkEstoque, :titulo, :descricao,:paginas,:edicao,:lancamento, isbn)";
+               $query = "INSERT INTO livro(fkAutor,fkImagem,fkClassificacao,fkEditora,fkEstoque,titulo,descricao,paginas,edicao,lancamento, :isbn) VALUES (:fkAutor,:fkImagem,:fkClassificacao,:fkEditora,:fkEstoque, :titulo, :descricao,:paginas,:edicao,:lancamento, isbn)";
                $sql = ConnectDB::getConexao()->prepare($query);
                $sql->bindValue(":fkAutor", $livro->getAutor()->getId(), PDO::PARAM_INT);
                $sql->bindValue(":fkImagem", $livro->getImagem()->getId(), PDO::PARAM_INT);
