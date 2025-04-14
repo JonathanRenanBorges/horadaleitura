@@ -48,7 +48,7 @@ Se necessário, ajuste os valores conforme suas credenciais locais.
 
 1. Clone o repositório:  
    ```bash
-   git clone https://github.com/seuusuario/hora-da-leitura.git
+   git clone https://github.com/jonathanborgesss/horadaleitura.git
    ```
 2. Acesse a pasta do projeto:  
    ```bash
