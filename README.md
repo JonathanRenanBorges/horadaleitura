@@ -52,7 +52,7 @@ Se necessário, ajuste os valores conforme suas credenciais locais.
    ```
 2. Acesse a pasta do projeto:  
    ```bash
-   cd hora-da-leitura
+   cd horadaleitura
    ```
 3. Configure o banco de dados corretamente antes de rodar o projeto.  
 4. Abra `index.html` no navegador ou utilize um servidor local.  
