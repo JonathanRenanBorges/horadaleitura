@@ -11,8 +11,8 @@ $id = $user->getId();
 
 if (isset($_GET['id']) && $user->getAcesso() > 1){
   $id = $_GET['id'];
+  $user = $userDAO->getUserById($id);
 }
-$user = $userDAO->getUserById($id);
 $nivel = "Leitor";
 if ($user->getAcesso() >= 2) {
   $nivel = "Admin";
