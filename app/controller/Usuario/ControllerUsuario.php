@@ -48,6 +48,7 @@ class ControllerUsuario
           }
 
           $userdao->insertUser($user);
+          $user = $userdao->getUserById(ConnectDB::getConexao()->lastInsertId());
           $session->setSession($user);
      }
      public function Login($email, $senha)
